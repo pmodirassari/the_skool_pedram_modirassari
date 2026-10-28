@@ -20,6 +20,12 @@ Här var det völ bara att byta ut 'Beviljad' mot "Avslag' och några rubriker t
 <img width="1430" height="759" alt="Screenshot 2026-10-28 150934" src="https://github.com/user-attachments/assets/faa46fbb-ff27-4b42-8e97-9fe4d42c5601" />
 
 
+*** Uppgift 1. d & e ***
+Återigen bara små ändringar som behövdes. Behövde bl.a. en AND för vad som skulle uppfyllas under WHERE och det kändes inte längre relevant att sortera på antalet beviljade då alla förutom en utbildning var 1. Det var några till som i princip hade samma namn men de hamnade på olika poster eftersom namnen hade små skillnader (alltifrån versaler/gemener till formulering). I årincip samma sak när det gällde uppgift e. Många fler avslagna, men namnen skiljer sig oftast aningen så de hamnar på olika poster.
+<img width="1428" height="753" alt="Screenshot 2026-10-28 152453" src="https://github.com/user-attachments/assets/a2f600e2-1b79-46b7-90c0-ad3ee2b5e2bd" />
+
+<img width="1425" height="759" alt="Screenshot 2026-10-28 153452" src="https://github.com/user-attachments/assets/565f723e-e11f-487c-9626-f3a42581a2e5" />
+
 
 
 
