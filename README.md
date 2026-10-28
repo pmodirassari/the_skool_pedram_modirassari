@@ -16,4 +16,10 @@ Kopierade uppgift 1a och modifierade den, nu när jag kommit igång gick allt my
 
 
 *** Uppgift 1. c ***
+Här var det völ bara att byta ut 'Beviljad' mot "Avslag' och några rubriker till, annars samma uppgift som ovan.
+<img width="1430" height="759" alt="Screenshot 2026-10-28 150934" src="https://github.com/user-attachments/assets/faa46fbb-ff27-4b42-8e97-9fe4d42c5601" />
+
+
+
+
 
