@@ -11,4 +11,9 @@ Nu gav jag mig på uppgift 1a.  "Antal ansökningar per utbildningsområde, sort
 
 
 *** Uppgift 1. b *** 
+Kopierade uppgift 1a och modifierade den, nu när jag kommit igång gick allt mycket smidigare. Trodde först att jag kunde ha COUNT som en separat command-line, men förstod sedan att det behövde vara under SELECT. Efter lite tweakande så verkar det fungera.
+<img width="1430" height="762" alt="Screenshot 2026-10-28 145505" src="https://github.com/user-attachments/assets/c1437761-c07d-4e86-aa25-13c947d376fc" />
+
+
+*** Uppgift 1. c ***
 
