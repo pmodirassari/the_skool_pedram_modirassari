@@ -2,7 +2,7 @@ SET PAGESIZE 100;
 
 DESC system.tabell3;
 
--- 1. a) Antal AVSLAGNA ansökningar per utbildningsområde
+-- 1. c) Antal AVSLAGNA ansökningar per utbildningsområde
 
 SELECT
     utbildningsområde,
