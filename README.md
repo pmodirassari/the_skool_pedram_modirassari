@@ -32,5 +32,9 @@ Inte mycket att tillägga.
 <img width="1657" height="757" alt="Screenshot 2026-10-28 163635" src="https://github.com/user-attachments/assets/23b50ccb-d5bb-4de7-9ae2-c7831bcf014c" />
 
 
+*** Uppgift 1. g ***
+Inget nytt här heller egentligen förutom "FETCH FIRST 5 ROWS ONLY"
+<img width="1651" height="758" alt="Screenshot 2026-10-28 165258" src="https://github.com/user-attachments/assets/6232e8ee-35e7-4e01-bcf9-276781c3c904" />
+
 
 
