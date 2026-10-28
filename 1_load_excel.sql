@@ -1,0 +1,8 @@
+SET LOADFORMAT XLS
+
+LOAD TABLE tabell3 'T3resultat2025.xls' NEW
+
+COMMIT;
+
+EXIT
+
