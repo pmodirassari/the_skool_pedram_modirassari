@@ -33,7 +33,7 @@ Inte mycket att tillägga.
 
 
 *** Uppgift 1. g ***
-Inget nytt här heller egentligen förutom "FETCH FIRST 5 ROWS ONLY"
+Inget nytt här heller egentligen förutom "FETCH FIRST 5 ROWS ONLY". Jo, man hade kunnat ta bort "Flera kommuner", men det bör vara intressant information för en eventuell stakeholder, att flera kommuner som gått ihop ändå har fått många utbildningsansökningar beviljade. Så det fick vara kvar.
 <img width="1651" height="758" alt="Screenshot 2026-10-28 165258" src="https://github.com/user-attachments/assets/6232e8ee-35e7-4e01-bcf9-276781c3c904" />
 
 
