@@ -27,5 +27,10 @@ Här var det völ bara att byta ut 'Beviljad' mot "Avslag' och några rubriker t
 <img width="1425" height="759" alt="Screenshot 2026-10-28 153452" src="https://github.com/user-attachments/assets/565f723e-e11f-487c-9626-f3a42581a2e5" />
 
 
+*** Uppgift 1. f ***
+Inte mycket att tillägga.
+<img width="1657" height="757" alt="Screenshot 2026-10-28 163635" src="https://github.com/user-attachments/assets/23b50ccb-d5bb-4de7-9ae2-c7831bcf014c" />
+
+
 
 
