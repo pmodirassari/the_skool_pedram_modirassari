@@ -42,5 +42,10 @@ Nu blev det lite annat. Jag ville först räkna ut totalen AS total och sedan an
 <img width="1775" height="784" alt="Screenshot 2026-10-29 104136" src="https://github.com/user-attachments/assets/ff3a0a3c-bb56-43c2-8a79-ff7e4e93129e" />
 
 
+*** Uppgift 1. i ***
+Här tyckte jag det fanns två sätt att räkna ut svaret på, först att skapa en lista med alla utbildningaar om har AI i namnet och sedan att be om en summa. Intressant nog diffade resultatet. Det första sättet gav 48 medan det andra gav 38. Jag gissar att det beror på att det finns utbildningar som heter samma sak. Med andra ord är det 48 utbildningar med AI i namnet, men 38 som har ett unikt namn.
+<img width="1778" height="786" alt="Screenshot 2026-10-29 111825" src="https://github.com/user-attachments/assets/6bfe7032-740a-46ef-b724-0046b01d0e56" />
+
+
 ***
 
