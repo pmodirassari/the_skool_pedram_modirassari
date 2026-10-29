@@ -38,7 +38,7 @@ Inget nytt här heller egentligen förutom "FETCH FIRST 5 ROWS ONLY". Jo, man ha
 
 
 *** Uppgift 1. h ***
-Nu blev det lite annat. Jag ville först räkna ut totalen AS total och sedan använda denna att dela summan av Distans respektive Bunden, men jag lyckades inte använda det i samma sats. Jag försökte därefter att ha två delar i skriften (En övre SELECT där jag räknade ut och en nedre SELECT där jag refererade till det ovan uträknade), men då visade det sig att inte heller det gick. Lösningen att räkna med hjälp av "THEN 1 ELSE 0 END"  fick jag av AI. Det är logiskt, men inget jag skulle ha kommit på själv och jag minns inte att det är nåot vi tagit upp i kursen. Jag antar att som med så mycket annat finns det myriader lösningar.
+Nu blev det lite annat. Jag ville först räkna ut totalen AS total och sedan använda denna att dela summan av Distans respektive Bunden, men jag lyckades inte använda det i samma sats. Jag försökte därefter att ha två delar i skriften (En övre SELECT där jag räknade ut och en nedre SELECT där jag refererade till det ovan uträknade), men då visade det sig att inte heller det gick. Lösningen att räkna med hjälp av "THEN 1 ELSE 0 END"  fick jag av AI. Det är logiskt, men inget jag skulle ha kommit på själv och jag minns inte att det är något vi tagit upp i kursen. Jag antar att som med så mycket annat finns det många olika lösningar.
 <img width="1775" height="784" alt="Screenshot 2026-10-29 104136" src="https://github.com/user-attachments/assets/ff3a0a3c-bb56-43c2-8a79-ff7e4e93129e" />
 
 
