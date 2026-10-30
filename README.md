@@ -58,6 +58,14 @@ Logiken var enkel, jag använde mig av liknande upplägg som övningsfrågorna. 
 Andra extrafrågan lyder: " Hur stor del av de sökta utbildningsomgångarna blir beviljade? Och med vilken grad sjunker antalet beroede på om det är en utbildningsomgång som är nära i tiden (0) eller om den ges längre fram i tiden (5)? M.a.o.: Om vi ser till alla beviljade platser, hur är dessa fördelade över omgångarna procentuellt?
 <img width="1611" height="794" alt="Screenshot 2026-10-30 104227" src="https://github.com/user-attachments/assets/66859f88-96fd-4d10-a491-57e9656faee6" />
 
+
+*** Uppgift 2 & # - Fråga 3 ***
+Tredje och sista frågan lyder såhär "Hur stor del av de utbildningar man sökt per utbildningsområde har Nackademin fått beviljade i jämförelse mot andra utbildningsanordnare?
+Det svåraste här var väl att forsätta komma på frågor. Logiken i uträkningarna är basal mattematik och upplägget i SQL också, men jag fick ändå testa mig fram och göra många justeringar (som synes av hur många gånger jag kört skriptet) innan jag fick det att fungera. Även här har jag bollat med LLM för att göra dessa justeringar. Alltifrån stavfel och kommatecken till hur jag skulle separera Nackademin från andra anordnare genom THEN / ELSE / END.
+<img width="968" height="478" alt="Screenshot 2026-10-30 131211" src="https://github.com/user-attachments/assets/aea12492-ea93-4a44-9a98-4dd30595fd4f" />
+<img width="1861" height="913" alt="Screenshot 2026-10-30 132047" src="https://github.com/user-attachments/assets/50174d1b-e491-404e-ad22-33d2e064d218" />
+
+
 <img width="1862" height="906" alt="Screenshot 2026-10-30 110011" src="https://github.com/user-attachments/assets/bf986577-8ef9-4346-a12a-cc3cacf878de" />
 
 
