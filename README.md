@@ -55,5 +55,10 @@ Logiken var enkel, jag använde mig av liknande upplägg som övningsfrågorna. 
 
 
 *** Uppgift 2 & 3 - Fråga 2 ***
+Andra extrafrågan lyder: " Hur stor del av de sökta utbildningsomgångarna blir beviljade? Och med vilken grad sjunker antalet beroede på om det är en utbildningsomgång som är nära i tiden (0) eller om den ges längre fram i tiden (5)? M.a.o.: Om vi ser till alla beviljade platser, hur är dessa fördelade över omgångarna procentuellt?
+<img width="1611" height="794" alt="Screenshot 2026-10-30 104227" src="https://github.com/user-attachments/assets/66859f88-96fd-4d10-a491-57e9656faee6" />
+
+<img width="1862" height="906" alt="Screenshot 2026-10-30 110011" src="https://github.com/user-attachments/assets/bf986577-8ef9-4346-a12a-cc3cacf878de" />
+
 
 
