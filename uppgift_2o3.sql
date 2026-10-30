@@ -1,7 +1,5 @@
 SET PAGESIZE 100;
 
-DESC system.tabell3;
-
 -- uppgift 2 & 3
 
 -- fråga 1 - Hur stor procent av ansökningar med utbildningar på distans respektive platsbundna blev beviljade? 
@@ -26,7 +24,18 @@ FROM tabell3
 GROUP BY utbildningsområde
 ORDER BY utbildningsområde;
 
--- fråga 3
+-- fråga 3 - Hur stor del av de utbildningar man sökt per utbildningsområde har Nackademin fått beviljade i jämförelse mot andra utbildningsanordnare?
 
+SELECT
+    utbildningsområde,
+    CASE WHEN utbildningsanordnare_administr LIKE '%Nackademin%' THEN 'Nackademin' ELSE 'Andra' END AS Anordnare,
+    COUNT(DISTINCT utbildningsnamn) AS antal_utbildningar,
+    SUM(CASE WHEN beslut = 'Beviljad' THEN 1 ELSE 0 END) AS antal_beviljade,
+    ROUND(((COUNT(DISTINCT CASE WHEN beslut ='Beviljad' THEN utbildningsnamn END)/NULLIF(COUNT(DISTINCT utbildningsnamn),0))*100), 2) AS Procent
+FROM tabell3
+GROUP BY
+utbildningsområde,
+CASE WHEN utbildningsanordnare_administr LIKE '%Nackademin%' THEN 'Nackademin' ELSE 'Andra' END
+ORDER BY utbildningsområde, anordnare;
 
 EXIT
