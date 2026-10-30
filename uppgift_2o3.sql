@@ -13,12 +13,18 @@ SELECT
 FROM tabell3
 GROUP BY utbildningsområde;
 
--- fråga 2
+-- fråga 2 - Hur stor del av de sökta utbildningsomgångarna blir beviljade? Och med vilken grad sjunker antalet beroede på om det är en utbildningsomgång som är nära i tiden (0) eller om den ges längre fram i tiden (5)? M.a.o.: Om vi ser till alla beviljade platser, hur är dessa fördelade över omgångarna procentuellt?
 
 SELECT
-    COUNT(utbildningsnamn) AS Antal_utbildningar_med_AI_i_namnet
+    utbildningsområde,
+    ROUND(SUM(beviljade_platser_utbildningso) / NULLIF(SUM(beviljade_platser_totalt), 0)*100, 2) AS procent_omg_1,
+    ROUND(SUM(beviljade_platser_utbildnings2) / NULLIF(SUM(beviljade_platser_totalt), 0)*100, 2) AS procent_omg_2,
+    ROUND(SUM(beviljade_platser_utbildnings3) / NULLIF(SUM(beviljade_platser_totalt), 0)*100, 2) AS procent_omg_3,
+    ROUND(SUM(beviljade_platser_utbildnings4) / NULLIF(SUM(beviljade_platser_totalt), 0)*100, 2) AS procent_omg_4,
+    ROUND(SUM(beviljade_platser_utbildnings5) / NULLIF(SUM(beviljade_platser_totalt), 0)*100, 2) AS procent_omg_5
 FROM tabell3
-WHERE utbildningsnamn LIKE '%AI%';
+GROUP BY utbildningsområde
+ORDER BY utbildningsområde;
 
 -- fråga 3
 
